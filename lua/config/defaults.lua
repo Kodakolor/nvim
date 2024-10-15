@@ -1,6 +1,9 @@
 vim.o.termguicolors = true
 vim.env.NVIM_TUI_ENABLE_TRUE_COLOR = 1
 
+--
+vim.o.guicursor = 'i-ci-ve:hor25-blinkwait500-blinkon300-blinkoff200'
+--
 vim.o.ttyfast = true
 vim.o.autochdir = true
 vim.o.exrc = true
